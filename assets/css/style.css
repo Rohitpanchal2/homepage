@@ -145,6 +145,7 @@
     line-height: 20px;
     color: #6C6767 !important;
     position: absolute;
+    color: #4D73F8 !important;
     top: 0;
     left: 0;
     width: 20px;
@@ -165,7 +166,7 @@
 }
 
 .prev {
-    background-color: rgb(46, 44, 44);
+    backdrop-filter: blur(10px);
     padding: 30px 22px;
     border-radius: 10px;
     opacity: 0.8;
@@ -173,11 +174,12 @@
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
+
 .next {
-    background-color: rgb(46, 44, 44);
+
     padding: 30px 22px;
     border-radius: 10px;
-    opacity: 0.8;
+    opacity: 1;
     border-radius: 10px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
